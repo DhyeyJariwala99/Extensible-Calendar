@@ -11,7 +11,7 @@ import model.ICalendarManager;
  */
 public class CommandFactory {
   private enum CommandType {
-    CREATE_CALENDAR("create calendar"),
+    CREATE_CALENDAR("create calendar"), 
     EDIT_CALENDAR("edit calendar"),
     USE_CALENDAR("use calendar"),
     CREATE_EVENT("create event"),
