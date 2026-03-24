@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-/**
+/** 
  * The CopyEventsOnCommand class represents a command to copy events
  * on a specific date or time.
  * It extends the ACommand class and encapsulates the logic for copying
