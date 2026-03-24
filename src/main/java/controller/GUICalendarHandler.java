@@ -28,7 +28,7 @@ import java.util.List;
 
 public class GUICalendarHandler implements ICalendarHandler {
   private final ICalendarManager calendarManager;
-  private IView view;
+  private IView view; 
   private static final DateTimeFormatter TIME_FORMAT =
           DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
 
